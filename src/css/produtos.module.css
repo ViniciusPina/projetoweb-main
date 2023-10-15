@@ -1,0 +1,36 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d4869c;
+    color: white;
+    margin: 20px 0;
+}
+
+
+th,
+td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #d4869c;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e1a5b5;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

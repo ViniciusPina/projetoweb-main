@@ -1,0 +1,42 @@
+.containerSobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-family: Mori;
+    min-height: 100vh;
+}
+
+.tituloSobre {
+    font-size: 35px;
+    text-align: center;
+}
+
+.textoSobre {
+    font-size: 30px;
+    width: 80%;
+}
+
+.tituloSobre p {
+    font-size: 32px;
+}
+
+.desenvolvedoresIcones {
+    display: flex;
+    gap: 40px;
+}
+
+.desIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desIcon a {
+    color: black;
+}
+
+.desIcon p {
+    font-size: 20px;
+}

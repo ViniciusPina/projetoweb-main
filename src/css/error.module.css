@@ -1,0 +1,11 @@
+.containerErro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Mori;
+    color: #d4869c;
+    font-size: 40px;
+}
+

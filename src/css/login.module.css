@@ -1,0 +1,42 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Mori;
+    color: #d4869c;
+}
+
+.loginContainer h1 {
+    font-size: 40px;
+}
+
+.inputField {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+    gap: 10px;
+}
+
+.labelText {
+    font-size: 20px;
+}
+
+.loginForm button {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #d4869c;
+    color: white;
+    font-family: Mori;
+    font-size: 20px;
+}

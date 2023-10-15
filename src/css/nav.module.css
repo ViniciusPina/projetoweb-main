@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Mori;
+    src: url(../assets/PPMori-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: #d4869c;
+    height: 3.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+
+.links ul, .login{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    font-family: Mori;
+    font-size: 1.2rem;
+}
+
+.login button {
+    font-family: Mori;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+}

@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.banner {
+    background-image: url(../assets/banner.jpg);
+    height: 30rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1 {
+    color: white;
+    font-family: Mori;
+}
+
+.bannerTexto {
+    position: relative;
+}
+
+.bannerTexto h1 {
+    position: absolute;
+    top: 40px;
+    left: 10%;
+    font-size: 3rem;
+}
+
+span {
+    color: #d4869c;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secaoHome {
+    margin-top: 5rem;
+    max-width: 1280px;
+    margin-bottom: 5rem;
+}
+
+.texto {
+    font-family: Mori;
+    width: 1280px;
+}
+
+.texto p {
+    font-size: 20px;
+}
+
+
+h2, h3 {
+    font-size: 3rem;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 2rem;
+}
+
+.icone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone p {
+    font-family: Mori;
+    color: #d4869c;
+    font-size: 20px;
+}
+
+h3 {
+    color: #d4869c;
+}

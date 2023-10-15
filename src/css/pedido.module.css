@@ -1,0 +1,76 @@
+.containerComidas {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Mori;
+}
+
+.cardapioTitulo {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pedidosFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pedidosGrid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imageContainer span {
+    background-color: #cfcdca;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imageContainer a {
+    width: 140px;
+    height: 150px;
+    padding: 4px;
+}
+
+.imageContainer img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.adicionarAoCarrinho {
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px; 
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.adicionarAoCarrinho:hover {
+    background-color: lightcoral;
+}

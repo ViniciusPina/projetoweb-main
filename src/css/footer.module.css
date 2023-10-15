@@ -1,0 +1,21 @@
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    font-family: Mori;
+    height: 4rem;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+}
+
+.rodapeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px 0 20px;
+}
+
+ul {
+    display: flex;
+}
